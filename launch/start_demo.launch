@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!--node name="base_node" pkg="base_control" type="base_node.py"/-->
+    <node name="start_iiwa" pkg="iiwa_application" type="iiwa_move" output="screen"/>
+    <node name="start_base" pkg="base_control" type="fx_base_move.py" output="screen"/>
+
+</launch>
